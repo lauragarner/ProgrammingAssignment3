@@ -22,8 +22,11 @@ This descriptive labelling requires additional files related to the features and
 8. activity_labels
 
 ### Resulting data set
-The outcome of the run_analysis.R script is a tidy data file in *.txt format. This file contains a matrix of the mean of every column, 
+The outcome of the run_analysis.R script is a tidy data file in .txt format. This file contains a matrix of the mean of every column, 
 grouped by activity and subject ID. This file meets the requirements of 'tidy data' (according to Hadley Wickham), specifically:
 1. Each variable forms a column - in this case, the variable is the mean of each column - 1 variable per column
 2. Each observation forms a row - in this case, each observation is grouped by activity and subject ID - 1 observation per row
 3. Each type of observational unit forms a table - the data set is compiled into one table, with all observations relevant and included.
+
+### Reference
+Hadley Wickham *Tidy  Data* article from the *Journal of Statistical Software* published August 2014, http://jstatsoft.org
